@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+
+.header {
+    top: 3%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    background-color: transparent;
+    position: fixed;
+    width: 100%; 
+    right: 7%;
+   
+}
+
+
+
+.navdiv {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    position: relative;
+ 
+     
+}
+
+.nav-right{
+    display: flex;
+    right:-5rem;        
+    position:absolute;
+ 
+}
+
+.nav-right ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 12px;
+    font-weight: 500;
+    list-style: none;
+}
+
+.navdiv ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 28px;
+}
+
+
+.header img {
+    width: 13rem;
+    margin-right: 2rem;
+}
+
+
+.section-1,.section-2,.section-3,.section-4,.section-5{
+    display: flex;
+    align-items: last baseline;
+    justify-content: flex-start;
+    height: 100vh;
+    object-fit:cover;
+    background-position: left;
+
+}
+
+.section-1{
+  
+    background-image: url("https://sxcontent9668.azureedge.us/cms-assets/assets/homepage_A9901_desktop_810d72f43a.jpg");
+   
+    
+}
+
+
+
+.info-banner{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 18.8rem;
+    margin-bottom: 10rem;
+    text-transform: uppercase;
+    button{
+        margin-top: 20px;
+        width: 160px;
+        height: 50px;
+        background-color: transparent;
+        border: solid;
+        border-width: 2px;
+        font-weight: bolder;
+        border-color: white;
+    }
+
+    h1{
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        font-size: large;       
+    }
+
+    p{
+        font-weight: bolder;
+        font-size: 3rem;
+        
+    }
+}
+
+
+
+
+.section-2{
+ 
+    background-image: url("https://sxcontent9668.azureedge.us/cms-assets/assets/NROL_149_Harris_Streak_4697_Desktop_9ead988278.jpg");
+    
+}
+
+.section-3{
+    background-image:url("https://sxcontent9668.azureedge.us/cms-assets/assets/RRT_1_outsidesouthtwrh_DSC_5289_desktop_80d8864a71.jpg");
+}
+
+
+.section-4{
+    background-image: url("https://sxcontent9668.azureedge.us/cms-assets/assets/Eva_Suit_Desktop_alternate_1cf9bae18e.jpg");
+}
+
+.section-5{
+    background-image: url("https://sxcontent9668.azureedge.us/cms-assets/assets/make_life_multiplanetary_desktop_3fa7cff73c.jpg");
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    position:relative;
+    font-size: 10px;
+    line-height: 18px;
+    font-weight: bolder;
+    padding: 2rem 0;
+}
+
+.footer span,p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
