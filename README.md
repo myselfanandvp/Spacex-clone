@@ -2,4 +2,4 @@
 
 ## SpaceX website link: https://www.spacex.com/
 
-## Github my cloned page link: https://anandvp92.github.io/Spacex-clone/
+## Github my cloned page link: https://myselfanandvp.github.io/Spacex-clone/
